@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Zeinab Lab1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+</head>
+<body>
+<h1>Task 1</h1>
+<form id="userForm">
+    <label for="firstName">Enter your first name:</label>
+    <input type="text" id="firstName" required><br>
+    <label for="lastName">Enter your last name:</label>
+    <input type="text" id="lastName" required><br>
+    <button type="button" onclick="confirm()">Confirm Full Name</button><br>
+    <label for="birthYear">Enter your birth year:</label>
+    <input type="number" id="birthYear" required><br>
+    <button type="button" onclick="welcomeUser()">Welcome!</button>
+</form>
+<div id="welcomeMessage" style="display: none;"></div>
+
+<h2>Task 2</h2>
+<form id="calculatorForm">
+    <label for="firstNumber">Enter the first number:</label>
+    <input type="number" id="firstNumber" required><br>
+    <label for="secondNumber">Enter the second number:</label>
+    <input type="number" id="secondNumber" required><br>
+    <button type="button" onclick="calculateSum()">Calculate Sum</button><br>
+    <div id="sumResult" style="display: none;"></div>
+</form>
+</body>
+</html>
