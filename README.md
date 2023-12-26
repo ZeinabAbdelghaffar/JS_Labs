@@ -15,3 +15,4 @@
 3. Ask the user to enter the second number.
 4. Show the summation result.
    Example: 10 + 5 = 315
+![Test](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/1d03541a-5e23-49b5-8039-d3f20a16b856)
