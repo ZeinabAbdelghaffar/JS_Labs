@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Zeinab_lab3_part2</title>
+    <link rel="stylesheet" href="Part2.css">
+    <script src="Part2.js"></script>
+</head>
+<body>
+    <h2>Sum and Average Calculator</h2>
+    <form>
+        <label for="count">Enter the number of values:</label>
+        <input type="number" id="count" required>
+        <br>
+        <button type="button" onclick="calculateSumAndAverage()">Calculate</button>
+        <p id="s"></p>
+    </form>
+
+    <h2>Phone Book App</h2>
+    <button onclick="addContact()">Add Contact</button>
+    <button onclick="searchContact()">Search Contact</button>
+    <div id="contactsList"></div>
+
+    <h2>Bonus : Area Calculator</h2>
+    <div class="calculator-container">
+        <form id="areaForm">
+            <label for="shape">Select a shape:</label>
+            <select id="shape" name="shape" onchange="updateForm()">
+                <option value="circle">Circle</option>
+                <option value="triangle">Triangle</option>
+                <option value="square">Square</option>
+                <option value="rectangle">Rectangle</option>
+                <option value="parallelogram">Parallelogram</option>
+                <option value="trapezium">Trapezium</option>
+                <option value="ellipse">Ellipse</option>
+            </select>
+            <div id="dimensions" class="dimensions-container">
+            </div>
+            <button type="button" onclick="calculateArea()">Calculate</button>
+            <div id="result" class="result-container">
+        </form>
+        </div>
+    </div>
+</body>
+</html>
