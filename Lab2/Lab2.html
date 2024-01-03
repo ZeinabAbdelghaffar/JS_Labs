@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeinab Task2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Age Section -->
+    <div class="form-container">
+        <h2>Check Age Status</h2>
+        <p>press Check Age Status and Enter your Age</p>
+        <button onclick="checkAge()">Check Age Status</button>
+    </div>
+    <!-- Vowel Count Section -->
+    <div class="form-container">
+        <h2>Count Vowels</h2>
+        <label for="stringInput">Enter a string:</label>
+        <input type="text" id="stringInput" placeholder="Enter a string">
+        <button onclick="countVowels()">Count Vowels</button>
+        <p id="vowelResult"></p>
+    </div>
+    <!-- 24-hour to 12-hour Section -->
+    <div class="form-container">
+        <h2>Convert 24-hour to 12-hour</h2>
+        <label for="hourInput">Enter the hour (0-23):</label>
+        <input type="number" id="hourInput" placeholder="Enter the hour">
+        <button onclick="convertTo12Hour()">Convert to 12-hour</button>
+        <p id="hourResult"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
