@@ -1,4 +1,4 @@
- # Abstract Classes and Interfaces in JavaScript
+# Abstract Classes and Interfaces in JavaScript
 
 ## Abstract Classes
 
