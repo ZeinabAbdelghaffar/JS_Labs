@@ -95,3 +95,30 @@ Create a JavaScript script to be run in a web browser.
 ![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/558c9804-f2e2-4ebb-a577-eb2b8dc2f058)
 ![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/c1ec20e9-a398-4132-9e7b-7611fd860b70)
 ![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/ecf7a69c-a72a-4ad0-b957-465c737d515d)
+# Lab 3 Part 3
+## Task 1: Objects
+In this section, I have implemented a JavaScript object named `person` with diverse properties. The code exemplifies the application of 10 predefined methods for objects:
+- **Object.keys():** Returns an array of object keys.
+- **Object.values():** Returns an array of object values.
+- **Object.entries():** Returns an array of key-value pairs as arrays.
+- **Object.hasOwnProperty():** Checks if an object has a specified property.
+- **Object.assign():** Copies the values of properties from source objects to a target object.
+- **Object.freeze():** Prevents modification of the object.
+- **Object.seal():** Prevents new properties from being added and removes existing properties.
+- **Object.getOwnPropertyNames():** Returns an array of all properties found directly upon the object.
+- **Object.getPrototypeOf():** Returns the prototype of the specified object.
+- **Object.is():** Compares two values for equality.
+## Task 2: Arrays
+This section centers on JavaScript arrays labeled `numbers`. Here, I illustrate the application of 10 predefined methods for arrays:
+- **Array.length:** Returns the number of elements in the array.
+- **Array.concat():** Joins two or more arrays, returning a new array.
+- **Array.push():** Adds elements to the end of the array.
+- **Array.pop():** Removes the last element from the array.
+- **Array.shift():** Removes the first element from the array.
+- **Array.unshift():** Adds elements to the beginning of the array.
+- **Array.slice():** Returns a shallow copy of a portion of the array.
+- **Array.splice():** Changes the contents of the array by adding, removing, or replacing elements.
+- **Array.indexOf():** Returns the first index at which a given element can be found.
+- **Array.includes():** Determines whether an array includes a certain element.
+## Task 3: Closures
+In this task, I've crafted a nested function showcasing the concept of closures and lexical environments. The `outerFunction` contains an `innerFunction`, and the closure is invoked with specific parameter values.
