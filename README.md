@@ -122,3 +122,21 @@ This section centers on JavaScript arrays labeled `numbers`. Here, I illustrate 
 - **Array.includes():** Determines whether an array includes a certain element.
 ## Task 3: Closures
 In this task, I've crafted a nested function showcasing the concept of closures and lexical environments. The `outerFunction` contains an `innerFunction`, and the closure is invoked with specific parameter values.
+# Apple and Orange Landing Problem
+## Problem Description
+Sam's house is located between an apple tree and an orange tree. Both trees yield an abundance of fruit, and the task is to determine how many apples and oranges will land on Sam's house.
+The house is represented by a range on the x-axis, denoted by the start point `s` and the endpoint `t`. The apple tree is at point `a` (to the left of the house), and the orange tree is at point `b` (to the right of the house). When a fruit falls from its tree, it lands `d` units of distance from its tree of origin along the x-axis. A negative value of `d` means the fruit fell `d` units to the tree's left, and a positive value means it falls `d` units to the tree's right.
+Given the values of `s`, `t`, `a`, `b`, and the distances at which each apple and orange falls from their respective trees, the task is to determine the number of apples and oranges that land on Sam's house.
+## Input
+The input consists of the following parameters:
+- `s`: Starting point of Sam's house location.
+- `t`: Ending location of Sam's house location.
+- `a`: Location of the Apple tree.
+- `b`: Location of the Orange tree.
+- `apples`: Distances at which each apple falls from the Apple tree.
+- `oranges`: Distances at which each orange falls from the Orange tree.
+## Output
+Print two integers on two different lines:
+1. The number of apples that fall on Sam's house.
+2. The number of oranges that fall on Sam's house.
+![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/43b06502-3f22-4553-8a11-37ad050781c1)
