@@ -140,3 +140,21 @@ Print two integers on two different lines:
 1. The number of apples that fall on Sam's house.
 2. The number of oranges that fall on Sam's house.
 ![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/43b06502-3f22-4553-8a11-37ad050781c1)
+# Lab 4: Person Class Implementation
+This implementation involves creating a `Person` class with specific attributes and methods using four different programming paradigms.
+## 1. Using Constructor Functions:
+A constructor function is a way to create and initialize objects. In this paradigm, a `PersonConstructor` function is defined, which takes parameters for `fullName`, `money`, `sleepMood`, and `healthRate`. When invoked with the `new` keyword, it creates an instance of the person object.
+## 2. Using Classes:
+Classes are a modern way to create objects in JavaScript. The `PersonClass` class is defined with a constructor that initializes the same attributes. This provides a more structured and syntactically cleaner way to create objects.
+## 3. Using Objects Linking to Other Objects (OLOO):
+Object Linking to Other Objects (OLOO) is a paradigm that focuses on creating objects and linking them to others. In this case, the `PersonOLOO` object is defined, acting as a prototype. The `createPerson` method creates new person objects linked to this prototype, providing a way to share behavior.
+## 4. Using Factory Functions:
+A factory function is a function that returns objects. The `createPersonFactory` function is defined to create a person object directly. It takes parameters and returns an object with the specified attributes.
+## Person Methods:
+All implementations share the same methods for the `Person` object:
+### - Sleep Method:
+The `sleep` method takes the number of hours slept as a parameter and adjusts the `sleepMood` attribute based on the hours slept. If the hours are 7, the person is "happy"; if less than 7, the person is "tired"; if more than 7, the person is "lazy."
+### - Eat Method:
+The `eat` method takes the number of meals as a parameter and adjusts the `healthRate` attribute based on the number of meals. If 3 meals, health rate is set to 100; if 2 meals, health rate is set to 75; if 1 meal, health rate is set to 50.
+### - Buy Method:
+The `buy` method takes the number of items to buy as a parameter and decreases the `money` attribute by 10 LE (local currency) for each item bought.
