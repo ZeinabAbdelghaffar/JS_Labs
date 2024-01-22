@@ -160,7 +160,7 @@ The `eat` method takes the number of meals as a parameter and adjusts the `healt
 The `buy` method takes the number of items to buy as a parameter and decreases the `money` attribute by 10 LE (local currency) for each item bought.
 
 # Lab 5:
-## Part 1:ffice Management System
+## Part 1 : Office Management System
 The Office Management System is a simple JavaScript application that helps manage employees in an office. It provides functionality to add, view, and manage employees, including options to add managers and normal employees.
 ### Features
 1. **Add New Employee:**
@@ -176,6 +176,42 @@ The Office Management System is a simple JavaScript application that helps manag
    - Display a farewell message when the user decides to quit the application.
 ![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/2da87edb-3b8d-497f-92e0-fab4e41a4310)
 
-## Part 2: Report:
-### Abstract VS interface 
-#### Inheritance in function constructor 
+# Lab 6 :
+This JavaScript project is a multi-part exploration of object-oriented programming, involving the creation of classes to model geometric shapes. The project is divided into three main parts:
+## Part 1: Shape Class
+The initial task involves defining a `Shape` class with properties such as `name`, `sides`, and `sideLength`. The class is designed to model shapes with equal-length sides, like squares or equilateral triangles. The objectives include adding a constructor to initialize the properties, implementing a method (`calcPerimeter`) to calculate the perimeter, and testing the class with instances like a square and a triangle.
+## Part 2: Square Class
+Building upon the `Shape` class, the second part introduces a `Square` class that inherits from `Shape`. The `Square` class includes a method (`calcArea`) to calculate the area of the square. The constructor of the `Square` class is configured to automatically set the name property to "square" and the sides property to 4. The section concludes with an example instantiation of the `Square` class and calls to its methods for testing.
+## Part 3: Triple Class and SquaredTriple Subclass
+The final part introduces a new class called `Triple`, which includes static fields (`customName` and `description`) and a static method (`calculate`). Additionally, a subclass called `SquaredTriple` is created, inheriting from `Triple`. The `SquaredTriple` class overrides the static method to return the square of the triple of a given number. Example tests are provided to demonstrate the functionality of both the `Triple` and `SquaredTriple` classes.
+The project serves as a practical exercise in object-oriented programming concepts, including class inheritance, static fields, and methods. The provided code snippets can be used as a foundation for further exploration and application of these principles in JavaScript development.
+
+# Lab 7 :
+## Part 1 : Simple Login Page : 
+A basic login page created using HTML, CSS, and JavaScript with the aim of providing a simple user authentication experience. This login page employs the Document Object Model (DOM) to capture user input and display messages based on provided credentials.
+### Features
+- User-friendly login interface with input fields for username and password.
+- Interactive login button triggering JavaScript validation logic.
+- Dynamic message display using the DOM to communicate login success or failure.
+- Stylish design with responsive layout for various devices.
+### Usage
+1. Open the HTML file (`index.html`) in a web browser.
+2. Enter the desired username and password.
+3. Click the "Login" button to see the login result message.
+4. If credentials match (username: admin, password: 123), a "Welcome" message is displayed.
+5. If credentials do not match, a "Not registered?" message is displayed with an option to create an account.
+![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/53d2d173-90a8-486d-8a9d-b9e8a93a86d7)
+
+## Part 2 : To-Do List App (Part 2)
+This repository contains a simple To-Do list app created using HTML, CSS, and JavaScript. The app allows users to add tasks, mark them as done, and delete tasks. This version of the app enhances the visual representation of completed tasks by filling the entire task section with a green background when marked as done.
+### Features
+- User-friendly interface with input field for adding task names.
+- Responsive design for various devices.
+- Tasks displayed in a list format with options to mark them as done or delete them.
+- Visual enhancement: Completed tasks now have the entire task section filled with a green background.
+### Usage
+1. Open the HTML file (`index.html`) in a web browser.
+2. Enter a task name in the input field and click the "Add" button to add a new task to the list.
+3. Click the "Done" button to mark a task as completed, and observe the green background filling the entire task section.
+4. Click the "Delete" button to remove a task from the list.
+![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/e37909d0-9e77-4186-ad0a-e56740dd4667)
