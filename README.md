@@ -201,3 +201,17 @@ A basic login page created using HTML, CSS, and JavaScript with the aim of provi
 4. If credentials match (username: admin, password: 123), a "Welcome" message is displayed.
 5. If credentials do not match, a "Not registered?" message is displayed with an option to create an account.
 ![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/53d2d173-90a8-486d-8a9d-b9e8a93a86d7)
+
+## Part 2 : To-Do List App (Part 2)
+This repository contains a simple To-Do list app created using HTML, CSS, and JavaScript. The app allows users to add tasks, mark them as done, and delete tasks. This version of the app enhances the visual representation of completed tasks by filling the entire task section with a green background when marked as done.
+### Features
+- User-friendly interface with input field for adding task names.
+- Responsive design for various devices.
+- Tasks displayed in a list format with options to mark them as done or delete them.
+- Visual enhancement: Completed tasks now have the entire task section filled with a green background.
+### Usage
+1. Open the HTML file (`index.html`) in a web browser.
+2. Enter a task name in the input field and click the "Add" button to add a new task to the list.
+3. Click the "Done" button to mark a task as completed, and observe the green background filling the entire task section.
+4. Click the "Delete" button to remove a task from the list.
+![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/e37909d0-9e77-4186-ad0a-e56740dd4667)
