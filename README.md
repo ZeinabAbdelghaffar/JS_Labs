@@ -176,6 +176,12 @@ The Office Management System is a simple JavaScript application that helps manag
    - Display a farewell message when the user decides to quit the application.
 ![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/2da87edb-3b8d-497f-92e0-fab4e41a4310)
 
-## Part 2: Report:
-### Abstract VS interface 
-#### Inheritance in function constructor 
+# Lab 6 :
+This JavaScript project is a multi-part exploration of object-oriented programming, involving the creation of classes to model geometric shapes. The project is divided into three main parts:
+## Part 1: Shape Class
+The initial task involves defining a `Shape` class with properties such as `name`, `sides`, and `sideLength`. The class is designed to model shapes with equal-length sides, like squares or equilateral triangles. The objectives include adding a constructor to initialize the properties, implementing a method (`calcPerimeter`) to calculate the perimeter, and testing the class with instances like a square and a triangle.
+## Part 2: Square Class
+Building upon the `Shape` class, the second part introduces a `Square` class that inherits from `Shape`. The `Square` class includes a method (`calcArea`) to calculate the area of the square. The constructor of the `Square` class is configured to automatically set the name property to "square" and the sides property to 4. The section concludes with an example instantiation of the `Square` class and calls to its methods for testing.
+## Part 3: Triple Class and SquaredTriple Subclass
+The final part introduces a new class called `Triple`, which includes static fields (`customName` and `description`) and a static method (`calculate`). Additionally, a subclass called `SquaredTriple` is created, inheriting from `Triple`. The `SquaredTriple` class overrides the static method to return the square of the triple of a given number. Example tests are provided to demonstrate the functionality of both the `Triple` and `SquaredTriple` classes.
+The project serves as a practical exercise in object-oriented programming concepts, including class inheritance, static fields, and methods. The provided code snippets can be used as a foundation for further exploration and application of these principles in JavaScript development.
