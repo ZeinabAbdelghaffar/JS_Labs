@@ -158,3 +158,24 @@ The `sleep` method takes the number of hours slept as a parameter and adjusts th
 The `eat` method takes the number of meals as a parameter and adjusts the `healthRate` attribute based on the number of meals. If 3 meals, health rate is set to 100; if 2 meals, health rate is set to 75; if 1 meal, health rate is set to 50.
 ### - Buy Method:
 The `buy` method takes the number of items to buy as a parameter and decreases the `money` attribute by 10 LE (local currency) for each item bought.
+
+# Lab 5:
+## Part 1:ffice Management System
+The Office Management System is a simple JavaScript application that helps manage employees in an office. It provides functionality to add, view, and manage employees, including options to add managers and normal employees.
+### Features
+1. **Add New Employee:**
+   - Prompt user to enter employee details such as ID, Name, Age, and Salary.
+   - Option to specify whether the employee is a manager or a normal employee.
+2. **Print All Employee Info:**
+   - Display a table containing information about all employees in the office.
+3. **Print Specific Employee:**
+   - Prompt user to enter an Employee ID and display detailed information about that specific employee.
+4. **Fire an Employee:**
+   - Prompt user to enter an Employee ID to remove that employee from the office.
+5. **Quit the Application:**
+   - Display a farewell message when the user decides to quit the application.
+![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/2da87edb-3b8d-497f-92e0-fab4e41a4310)
+
+## Part 2: Report:
+### Abstract VS interface 
+#### Inheritance in function constructor 
