@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <title>Set Alarm</title>
+  <link rel="stylesheet" href="alarm.css">
+</head>
+<body>
+<div id="setAlarm">
+  <h2>SET ALARM AFTER</h2>
+  <div id="inputContainer">
+    <div class="inputGroup">
+      <label for="hours">HOURS</label>
+      <input type="number" id="hours" placeholder="0" min="0" max="23">
+    </div>
+    <div class="inputGroup">
+      <label for="minutes">MINUTES</label>
+      <input type="number" id="minutes" placeholder="0" min="0" max="59">
+    </div>
+    <div class="inputGroup">
+      <label for="seconds">SECONDS</label>
+      <input type="number" id="seconds" placeholder="0" min="0" max="59">
+    </div>
+  </div>
+  <div id="countdown">Time remaining: 00:00:00</div>
+  <div id="buttonsContainer">
+    <button id="setButton" onclick="startCountdown()">SET</button>
+    <button id="clearButton">CLEAR</button>
+  </div>
+  <script src="alarm.js"></script>
+</div>
+</body>
+</html>
