@@ -215,3 +215,19 @@ This repository contains a simple To-Do list app created using HTML, CSS, and Ja
 3. Click the "Done" button to mark a task as completed, and observe the green background filling the entire task section.
 4. Click the "Delete" button to remove a task from the list.
 ![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/e37909d0-9e77-4186-ad0a-e56740dd4667)
+
+# Lab 8 : 
+## Part 2 : Digital Watch with Alarm
+This project aims to create a digital watch with an alarm feature. The digital watch interface provides an easy-to-use platform for users to set the desired time using hours, minutes, and seconds input fields. The countdown timer will then display the time remaining until the set alarm time.
+### Features
+- **Digital Display**: Clear and concise representation of time using hours, minutes, and seconds input fields.
+- **Alarm Setting**: Users can set a specific time for the alarm using the provided input fields.
+- **Countdown Timer**: The countdown timer dynamically updates and displays the time remaining until the set alarm time.
+- **Alarm Notification**: Instead of a sound, the alarm triggers an alert dialog box to notify the user when the countdown reaches zero.
+### Usage
+1. Input desired hours, minutes, and seconds in the corresponding fields.
+2. Click the "SET" button to activate the countdown timer.
+3. If needed, click the "CLEAR" button to reset the input fields and stop the countdown.
+4. When the countdown reaches zero, an alert dialog box will notify the user.
+![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/3977c39d-5a03-4150-978c-0df7be69fde4)
+![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/4685e1d7-57a0-406f-a33b-d4e4e67dfb4e)
