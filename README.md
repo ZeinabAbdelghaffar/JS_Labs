@@ -1,4 +1,6 @@
 # JS_Labs
+![JS](https://lokalise.com/blog/wp-content/uploads/2021/10/Libraries-for-translating-JavaScript-apps.png)
+
 # Lab 1
 ## Task 1: 
 1. Ask the user to enter his first name.
@@ -217,6 +219,14 @@ This repository contains a simple To-Do list app created using HTML, CSS, and Ja
 ![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/e37909d0-9e77-4186-ad0a-e56740dd4667)
 
 # Lab 8 : 
+## Part 1 : Image Slider
+This project implements a simple and stylish image slider using HTML, CSS, and JavaScript. The image slider provides an interactive way to navigate through a series of images, with options for manual control through navigation buttons and automatic sliding. The project is suitable for showcasing a collection of images or creating an engaging visual experience on a webpage.
+### Features
+- **Responsive Design:** The image slider is designed to be responsive, adapting to various screen sizes for a seamless user experience.
+- **Navigation Buttons:** Users can manually navigate through the images using the "Next" and "Previous" buttons, allowing for precise control.
+- **Automatic Sliding:** The slider includes an automatic sliding feature, cycling through the images at regular intervals. Users can also pause the automatic sliding by clicking the navigation buttons.
+- **Navigation Indicators:** The project includes a set of navigation indicators, displaying buttons that correspond to each image. Clicking on these buttons directly jumps to the associated image, providing an additional navigation method.
+![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/2c3f58f4-e238-4aec-ae5b-fb71bdb4ff7b)
 ## Part 2 : Digital Watch with Alarm
 This project aims to create a digital watch with an alarm feature. The digital watch interface provides an easy-to-use platform for users to set the desired time using hours, minutes, and seconds input fields. The countdown timer will then display the time remaining until the set alarm time.
 ### Features
