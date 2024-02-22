@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="lab9.css">
+</head>
+<body>
+    <h2>Login Page</h2>
+    <div class="container">
+        <form>
+            <label for="usrname">Username</label>
+            <input type="text" id="usrname" name="usrname" required><br>
+            <label for="psw">Password</label>
+            <input type="password" id="psw" name="psw" required><br>
+            <div id="message">
+                <h3>Password must contain the following:</h3>
+                <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+                <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+                <p id="number" class="invalid">A <b>number</b></p>
+                <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="lab9.js"></script>
+</body>
+</html>
