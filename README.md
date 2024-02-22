@@ -241,3 +241,13 @@ This project aims to create a digital watch with an alarm feature. The digital w
 4. When the countdown reaches zero, an alert dialog box will notify the user.
 ![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/3977c39d-5a03-4150-978c-0df7be69fde4)
 ![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/4685e1d7-57a0-406f-a33b-d4e4e67dfb4e)
+# Lab 9
+This is a login page project.
+## Features
+- User can enter a username and password.
+- **Password Strength Checker** that validates the strength of a password based on the presence of at least one lowercase letter, one uppercase letter, one number, and be at least 8 characters long.
+## Files
+- `lab9.html`: HTML file for the login page.
+- `lab9.css`: CSS file for styling the login page.
+- `lab9.js`: JavaScript file for password validation.
+![image](https://github.com/ZeinabAbdelghaffar/JS_Labs/assets/87963230/bec82e1c-5254-408c-abef-0718786cd855)
