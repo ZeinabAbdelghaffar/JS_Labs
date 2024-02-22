@@ -1,4 +1,6 @@
 # JS_Labs
+![JS](https://lokalise.com/blog/wp-content/uploads/2021/10/Libraries-for-translating-JavaScript-apps.png)
+
 # Lab 1
 ## Task 1: 
 1. Ask the user to enter his first name.
